@@ -6,7 +6,7 @@ const mongoDB = require('./config/db')
 const authRoutes = require('./routes/authRoutes');
 const productRoutes = require('./routes/productRoutes');
 dotenv.config();
-const Port = process.env.Port ||5000;
+const Port = process.env.Port ;
 
 const app = express();
 app.use(cors());
