@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';  // Backend API URL
+const API_URL = 'https://fullstackassignment-1.onrender.com/api';
+  // Backend API URL
 
 // Create an axios instance with default configuration
 const api = axios.create({
