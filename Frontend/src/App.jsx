@@ -22,8 +22,8 @@ const App = () => {
       <div className="App">
         <h1>Full Stack Application</h1>
         <Routes>  
-          <Route path="/signup" element={<Signup />} /> 
-          <Route path="/login" element={<Login />} /> 
+          <Route path="/signup" element={<Signup/>} /> 
+          <Route path="/login" element={<Login/>} /> 
           <Route
             path="/products"
             element={
